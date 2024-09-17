@@ -14,7 +14,7 @@ export const Portfolio = () => {
         {
             id:3,
             src:p2,
-            linkR:'https://netflixandchill.netlify.app/',
+            linkR:'https://kknetf.netlify.app/',
             linkC:'https://github.com/kabitakafle343/Netflix-Clone'
         },
     ]
