@@ -1,6 +1,6 @@
 import React from 'react'
 import p1 from  "../assets/weatherapp.png"
-import p2 from  "../assets/netflix.png"
+import p3 from  "../assets/netflix.png"
 export const Portfolio = () => {
 
     const portfolio=[
@@ -13,7 +13,7 @@ export const Portfolio = () => {
        
         {
             id:3,
-            src:p2,
+            src:p3,
             linkR:'https://kknetf.netlify.app/',
             linkC:'https://github.com/kabitakafle343/Netflix-Clone'
         },
