@@ -4,7 +4,7 @@ import html from "../assets/htmlimg.png";
 import js from "../assets/javascript.svg";
 import reactt from  "../assets/react-2.svg";
 import tailwind from "../assets/tailwind-css.svg";
-
+import nextjs from "../assets/next.webp"
 const EXperience = () => {
 
     const imgg=[
@@ -40,6 +40,12 @@ const EXperience = () => {
             imgg:tailwind,
             style:'shadow-cyan-500',
             para:"Tailwind Css"
+        },
+          {
+            id:5,
+            imgg:nextjs,
+            style:'shadow-cyan-500',
+            para:"Next Js"
         },
     ]
   return (   <div name="Experience" className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen ">

@@ -1,5 +1,5 @@
 import React from 'react'
-import p1 from  "../assets/weatherapp.png"
+import p1 from  "../assets/pp.png"
 import p3 from  "../assets/netflix.png"
 export const Portfolio = () => {
 
@@ -7,8 +7,8 @@ export const Portfolio = () => {
         {
             id:1,
             src:p1,
-            linkR:'https://weatherwebsitenepal.netlify.app/',
-            linkC:'https://github.com/kabitakafle343/WeatherAPP'
+            linkR:'https://kabitaportfolio.netlify.app/',
+            linkC:'https://github.com/kabitakafle343/portfolio.git'
         },
        
         {
