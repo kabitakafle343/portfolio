@@ -55,7 +55,7 @@ return(
         {links.map(({id,link})=>{
             return(
 
-<li key={id} className="py-4  hover:scale-125 duration-200 cursor-pointer text-1xl text-white">{link} </li>
+<li key={id} className="py-4  hover:scale-125 duration-200 cursor-pointer text-1xl text-white" ><Link to={link} smooth duration={500} onClick={()=>setnav(!nav)}>{link}</Link></li>
        ) })}
 </ul>
         )}
